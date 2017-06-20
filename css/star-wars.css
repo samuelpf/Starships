@@ -38,7 +38,8 @@ h1, p {
   .table-container .dataTables_info {
     color: white;
     font-weight: 300;
-    padding-left: 10px; }
+    padding-left: 10px;
+    text-align: left !important; }
 
 #ships-table, #table-header-aux {
   border-collapse: collapse;
@@ -107,6 +108,7 @@ h1, p {
   top: 0;
   z-index: 1; }
   #table-header-aux th, #table-header-aux td {
-    background-color: #343434; }
+    background-color: #343434;
+    border-color: #3f3f3f; }
 
 /*# sourceMappingURL=star-wars.css.map */

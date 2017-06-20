@@ -55,6 +55,7 @@ h1, p {
 		color: white;
 		font-weight: 300;
 		padding-left: 10px;
+		text-align: left !important;
 	}
 }
 
@@ -116,5 +117,8 @@ h1, p {
 	top: 0;
 	z-index: 1;
 
-	th, td { background-color: lighten($dark-grey, 7%); }
+	th, td { 
+		background-color: lighten($dark-grey, 7%); 
+		border-color: lighten($light-grey, 5%);
+	}
 }
