@@ -1,0 +1,120 @@
+/* --- Variables --- */
+
+$bck-color:   #1E2024;
+$dark-grey:   #222222;
+$light-grey:  #323232;
+$white-smoke: #bbbbbb;
+
+/* ----------------- */
+
+body {
+	background-attachment: fixed;
+	background-color: $bck-color;
+	background-image: url('../img/star-wars.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1, p {
+	margin: 0;
+}
+
+.header-container {
+	height: 40px;
+	padding: 30px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+	text-align: center;
+
+	.header-img {
+		height: 40px;
+	}
+}
+
+.footer-container {
+	padding: 10px 0 20px 10px;
+
+	.rebels-logo {
+		height: 15px;
+		margin-left: 5px;
+		vertical-align: middle;
+	}
+}
+
+.table-container {
+	padding: 100px 0 0 0;
+	position: relative;
+	z-index: 1;
+
+	.dataTables_info {
+		color: white;
+		font-weight: 300;
+		padding-left: 10px;
+	}
+}
+
+#ships-table, #table-header-aux {
+	border-collapse: collapse;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	table-layout: fixed;
+	width: 3280px;
+
+	th:nth-of-type(1) { width: 280px; }
+	th:nth-of-type(2) { width: 300px; }
+	th:nth-of-type(3) { width: 300px; }
+	th:nth-of-type(4) { width: 150px; }
+	th:nth-of-type(5) { width: 150px; }
+	th:nth-of-type(6) { width: 150px; }
+	th:nth-of-type(7) { width: 150px; }
+	th:nth-of-type(8) { width: 150px; }
+	th:nth-of-type(9) { width: 150px; }
+	th:nth-of-type(10) { width: 150px; }
+	th:nth-of-type(11) { width: 150px; }
+	th:nth-of-type(12) { width: 200px; }
+	th:nth-of-type(13) { width: 200px; }
+	th:nth-of-type(14) { width: 200px; }
+	th:nth-of-type(15) { width: 200px; }
+	th:nth-of-type(16) { width: 200px; }
+	th:nth-of-type(17) { width: 200px; }
+	th:nth-of-type(18) { width: 200px; }
+
+	th {
+		background-color: $dark-grey;
+		border: 1px solid $light-grey;
+		height: 50px;
+		overflow: hidden;
+		padding: 0 10px;
+		text-transform: uppercase;
+	}
+
+	td {
+		background-color: $dark-grey;
+		border: 1px solid $light-grey;
+		color: $white-smoke;
+		font-weight: 300;
+		overflow: hidden;
+		padding: 12px 10px;
+
+		&.num { text-align: right; }
+	}
+
+	a, a:visited {
+		color: inherit;
+	}
+
+}
+
+#table-header-aux {
+	cursor: pointer;
+	display: none;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+
+	th, td { background-color: lighten($dark-grey, 7%); }
+}

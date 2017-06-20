@@ -1,0 +1,112 @@
+/* --- Variables --- */
+/* ----------------- */
+body {
+  background-attachment: fixed;
+  background-color: #1E2024;
+  background-image: url("../img/star-wars.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  font-family: 'Oswald', sans-serif; }
+
+h1, p {
+  margin: 0; }
+
+.header-container {
+  height: 40px;
+  padding: 30px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  text-align: center; }
+  .header-container .header-img {
+    height: 40px; }
+
+.footer-container {
+  padding: 10px 0 20px 10px; }
+  .footer-container .rebels-logo {
+    height: 15px;
+    margin-left: 5px;
+    vertical-align: middle; }
+
+.table-container {
+  padding: 100px 0 0 0;
+  position: relative;
+  z-index: 1; }
+  .table-container .dataTables_info {
+    color: white;
+    font-weight: 300;
+    padding-left: 10px; }
+
+#ships-table, #table-header-aux {
+  border-collapse: collapse;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  table-layout: fixed;
+  width: 3280px; }
+  #ships-table th:nth-of-type(1), #table-header-aux th:nth-of-type(1) {
+    width: 280px; }
+  #ships-table th:nth-of-type(2), #table-header-aux th:nth-of-type(2) {
+    width: 300px; }
+  #ships-table th:nth-of-type(3), #table-header-aux th:nth-of-type(3) {
+    width: 300px; }
+  #ships-table th:nth-of-type(4), #table-header-aux th:nth-of-type(4) {
+    width: 150px; }
+  #ships-table th:nth-of-type(5), #table-header-aux th:nth-of-type(5) {
+    width: 150px; }
+  #ships-table th:nth-of-type(6), #table-header-aux th:nth-of-type(6) {
+    width: 150px; }
+  #ships-table th:nth-of-type(7), #table-header-aux th:nth-of-type(7) {
+    width: 150px; }
+  #ships-table th:nth-of-type(8), #table-header-aux th:nth-of-type(8) {
+    width: 150px; }
+  #ships-table th:nth-of-type(9), #table-header-aux th:nth-of-type(9) {
+    width: 150px; }
+  #ships-table th:nth-of-type(10), #table-header-aux th:nth-of-type(10) {
+    width: 150px; }
+  #ships-table th:nth-of-type(11), #table-header-aux th:nth-of-type(11) {
+    width: 150px; }
+  #ships-table th:nth-of-type(12), #table-header-aux th:nth-of-type(12) {
+    width: 200px; }
+  #ships-table th:nth-of-type(13), #table-header-aux th:nth-of-type(13) {
+    width: 200px; }
+  #ships-table th:nth-of-type(14), #table-header-aux th:nth-of-type(14) {
+    width: 200px; }
+  #ships-table th:nth-of-type(15), #table-header-aux th:nth-of-type(15) {
+    width: 200px; }
+  #ships-table th:nth-of-type(16), #table-header-aux th:nth-of-type(16) {
+    width: 200px; }
+  #ships-table th:nth-of-type(17), #table-header-aux th:nth-of-type(17) {
+    width: 200px; }
+  #ships-table th:nth-of-type(18), #table-header-aux th:nth-of-type(18) {
+    width: 200px; }
+  #ships-table th, #table-header-aux th {
+    background-color: #222222;
+    border: 1px solid #323232;
+    height: 50px;
+    overflow: hidden;
+    padding: 0 10px;
+    text-transform: uppercase; }
+  #ships-table td, #table-header-aux td {
+    background-color: #222222;
+    border: 1px solid #323232;
+    color: #bbbbbb;
+    font-weight: 300;
+    overflow: hidden;
+    padding: 12px 10px; }
+    #ships-table td.num, #table-header-aux td.num {
+      text-align: right; }
+  #ships-table a, #ships-table a:visited, #table-header-aux a, #table-header-aux a:visited {
+    color: inherit; }
+
+#table-header-aux {
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 1; }
+  #table-header-aux th, #table-header-aux td {
+    background-color: #343434; }
+
+/*# sourceMappingURL=star-wars.css.map */
